@@ -52,7 +52,6 @@
            <artifactId>liberty-maven-plugin</artifactId>
            <version>${version.liberty-maven-plugin}</version>
            <configuration>
-             <serverName>sampleAppServer</serverName>
               <copyDependencies>
                <location>${project.build.directory}/liberty/wlp/usr/shared/resources/DerbyLibs</location>
                <dependency>
