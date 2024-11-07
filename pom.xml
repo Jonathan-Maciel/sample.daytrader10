@@ -41,7 +41,6 @@
          <groupId>org.apache.derby</groupId>
          <artifactId>derby</artifactId>
          <version>${version.derby}</version>
-         <scope>provided</scope>
       </dependency>
    </dependencies>
    <build>
