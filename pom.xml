@@ -53,7 +53,8 @@
            <version>${version.liberty-maven-plugin}</version>
            <configuration>
               <copyDependencies>
-               <location>${project.build.directory}/liberty/wlp/usr/shared/resources/DerbyLibs</location>
+<!--                <location>${project.build.directory}/liberty/wlp/usr/shared/resources/DerbyLibs</location> -->
+                 <location>DerbyLibs</location>
                <dependency>
                 <groupId>org.apache.derby</groupId>
                 <!-- Selects all artifacts under this groupId -->
