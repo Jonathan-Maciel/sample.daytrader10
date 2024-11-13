@@ -92,7 +92,7 @@
                      <goal>copy-resources</goal>
                   </goals>
                   <configuration>
-                     <outputDirectory>lib/resources/data</outputDirectory>
+                     <outputDirectory>/opt/ibm/wlp/usr/servers/defaultServer/data</outputDirectory>
                      <resources>
                         <resource>
                            <directory>resources/data</directory>
