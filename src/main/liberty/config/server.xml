@@ -44,7 +44,7 @@
    <connectionManager agedTimeout="-1" connectionTimeout="0" id="conMgr1" maxIdleTime="-1" maxPoolSize="100" minPoolSize="100" purgePolicy="FailingConnectionOnly" reapTime="-1" />  
    <dataSource connectionManagerRef="conMgr1" id="DefaultDataSource" isolationLevel="TRANSACTION_READ_COMMITTED"  jndiName="jdbc/TradeDataSource" statementCacheSize="60">
       <jdbcDriver libraryRef="derbyJDBCLib" />
-      <properties.derby.embedded databaseName="/workspace/source/target/liberty/wlp/usr/shared/resources/data/tradedb" password="db_password" user="db_username" />
+      <properties.derby.embedded databaseName="${shared.resource.dir}/data/tradedb" password="db_password" user="db_username" />
    </dataSource>
    
    <messagingEngine id="defaultME">
