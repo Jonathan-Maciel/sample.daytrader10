@@ -92,10 +92,10 @@
                      <goal>copy-resources</goal>
                   </goals>
                   <configuration>
-                     <outputDirectory>resources/data/tradedb</outputDirectory>
+                     <outputDirectory>lib/resources/data</outputDirectory>
                      <resources>
                         <resource>
-                           <directory>src/main/resources/data/tradedb</directory>
+                           <directory>resources/data</directory>
                            <filtering>false</filtering>
                         </resource>
                      </resources>
